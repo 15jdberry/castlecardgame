@@ -1,9 +1,11 @@
 #!/bin/bash
 clear
 
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+# echo "Script directory: $SCRIPT_DIR"
+
 # Change to the directory containing the python script
-# cd
-#cd ~/Desktop/Coding_Files/PythonProjects/GAMES/castlecardgame
+cd $SCRIPT_DIR
 
 # Activate the virtual environment
 #source venv/bin/activate
