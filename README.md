@@ -101,7 +101,7 @@ Visual checking of console logs was performed to ensure the game and logic opera
 
 
 ## Contributing
-Contributions are welcome. Please refer to [contribution]() guidelines.
+Contributions are welcome. Please refer to [contribution](https://github.com/15jdberry/15jdberry/blob/main/CONTRIBUTING.md) guidelines.
 Feel free to improve your own version of the game through different logic, colors, and ways to increase the number of players in the game.
 
 ## License
