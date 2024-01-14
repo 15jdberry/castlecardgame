@@ -1,0 +1,84 @@
+~~~~~~~~~~~~~~~~~~~~~~ WELCOME TO THE CASTLE CARD GAME ~~~~~~~~~~~~~~~~~~~~~~
+Would you like the Castle/Palace Card Game to be explained?
+	y for yes: y
+
+GAME RULES:
+    THE FIRST PLAYER TO RUN OUT OF CARDS WINS!
+    1.  3 cards are dealt to each player face-down (Hidden Cards).
+    2.  3 cards are dealt to each player face-up (Face-Up Cards).
+    3.  3 cards are dealt to each player's Hand.
+    4.  The first card is turned over from the shuffled deck and becomes the
+        Active Card.
+    5.  During their turn, each player will play a card that is equal to
+        or of higher value than the active card.
+        --- 2's, 8's, and A's play on top of any card
+        --- 2's reset the stack
+        --- 8's burn the stack and remove it from play
+        --- A's have the highest card value
+    6.  You must play a card during your turn. If you cannot play a card,
+        type 99 to pick up the current stack. The next player can play any
+        card from their choices.
+    7.  Burn the stack if:
+        --- The top 4 cards are of the same value, and/or
+        --- An 8 is played
+        The player who played the last card will restart their turn.
+    8.  Once your turn is finished, if there is still a deck,
+        you will draw cards from the draw pile (deck) to maintain 3 cards in your hand.
+    9. Once the deck is depleted, players rely solely on the cards
+        in their hand.
+        --- If you pick up the stack, you must play all of those cards before
+            playing from your cards on the table (Hidden and Face-Up Cards).
+        --- Once your Hand is depleted, you will play from your Face-Up Cards.
+        --- Once your Face-Up Cards are depleted, you will play from your
+            Hidden Cards.
+        --- You win the game if you deplete your Hand, Face-Up, and Hidden Cards
+            before your opponent
+
+NOTES ABOUT THIS VERSION:
+    [A] Players CANNOT choose their 3 Face-Up Cards.
+    [B] 10's are NOT special cards. They will NOT add the burnt stack back
+        to the game.
+    [C] By default, you will play all cards of the same value from your hand.
+    [D] You will NOT be able to play a 4-of-a-kind from your hand unless
+        those cards are of equal or higher value than the active card.
+    [E] KeyboardInterrupt is supported.
+
+Records: {'playerWins': 2, 'opponentWins': 1, 'totalGamesPlayed': 3}
+	Shuffling Deck ...
+	Dealing Cards ...
+
+┌ GAME TABLE ──────────────────────────────────────────────────── burnt: 0 ┐
+│  Opponent Hidden Cards: 3
+│                Face-Up: A ♠ J ♡ 7 ♣
+│                   Hand:  3
+│            ACTIVE CARD:     -> 9 ♢ Diamonds ♢ <-                stack: 1 
+│      Your Hidden Cards: 3
+│                Face-Up: 3 ♠ 3 ♡ 6 ♢
+│               Hand (3): K ♠ 2 ♣ 6 ♡
+└──────────────────────────────────────────────────────────────── deck: 33 ┘
+YOUR TURN!                                        (Type 99 to pick up stack)
+	Which card in your hand will you play (1-3)?: 1
+	You played the	 K ♠ Spades ♠ 
+	Drawing card ...
+	Hand: ['2 ♣', '6 ♡', '5 ♡']
+
+OPPONENT'S TURN ...
+	Opponent had to pick up the stack
+
+┌ GAME TABLE ──────────────────────────────────────────────────── burnt: 0 ┐
+│  Opponent Hidden Cards: 3
+│                Face-Up: A ♠ J ♡ 7 ♣
+│                   Hand:  5
+│            ACTIVE CARD:             -> [none] <-                stack: 0 
+│      Your Hidden Cards: 3
+│                Face-Up: 3 ♠ 3 ♡ 6 ♢
+│               Hand (3): 2 ♣ 6 ♡ 5 ♡
+└──────────────────────────────────────────────────────────────── deck: 32 ┘
+YOUR TURN!                                        (Type 99 to pick up stack)
+	Which card in your hand will you play (1-3)?: ^C
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+[Process completed]
