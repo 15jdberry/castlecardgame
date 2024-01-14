@@ -51,7 +51,7 @@ You may have to use `sudo chmod +x play_castle` in case permissions are not suff
 
 
 ## Pictures
-![Screenshot](gameplay_screenshot01.png)
+<img width="634" alt="castle_gameplay_screenshot01" src="https://github.com/15jdberry/castlecardgame/assets/148604533/67c9c31f-e541-47d2-97ce-40afd3af82af">
 
 
 ## Rules
